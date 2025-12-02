@@ -1,0 +1,32 @@
+{
+  "name": "autopilot-wealth-system",
+  "version": "1.0.0",
+  "description": "Automatic money-making system with AI trading, viral content, and arbitrage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "trading": "node trading-bot.js",
+    "content": "node content-factory.js",
+    "arbitrage": "node arbitrage-bot.js",
+    "demo": "MODE=demo node index.js",
+    "live": "MODE=live node index.js"
+  },
+  "keywords": [
+    "trading",
+    "ai",
+    "automation",
+    "passive-income",
+    "crypto",
+    "arbitrage"
+  ],
+  "author": "Bhindi AI + Irtaza Jadoon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
